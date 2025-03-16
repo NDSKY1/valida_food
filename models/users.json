@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "vendorName": "Ankit khunt",
+    "shopName": "Doe Mart",
+    "mobile": "9313516451",
+    "password": "Ankit123",
+    "gstNo": "22ABCDE1234F1Z5",
+    "shopNo": "12A",
+    "address": "123 Street, City",
+    "landmark": "Near Mall",
+    "city": "New York",
+    "state": "NY",
+    "pinCode": "10001",
+    "salesman": "Salesman123",
+    "otp": null,
+    "verified": true
+  },
+  {
+    "id": "2",
+    "vendorName": "Sujal",
+    "shopName": "maruti",
+    "mobile": "9484840279",
+    "password": "sujal123",
+    "gstNo": "22ABCDE3451D3D4",
+    "shopNo": "205",
+    "address": "Mota varachha ",
+    "landmark": "vesu",
+    "city": "surat",
+    "state": "surat",
+    "pinCode": "395010",
+    "salesman": "1741844317997",
+    "otp": null,
+    "verified": true
+  }
+]

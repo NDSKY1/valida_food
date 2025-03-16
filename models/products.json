@@ -1,0 +1,332 @@
+[
+    {
+        "_id": "1",
+        "productName": "Whole Wheat Atta",
+        "productDescription": "Premium quality whole wheat flour, carefully milled from the finest wheat grains to ensure soft, healthy, and nutritious rotis. Ideal for daily use, it retains natural fiber, vitamins, and minerals.",
+        "productMainImage": "uploads/atta.jpg",
+        "productOtherImages": [
+            { "_id": "img1", "url": "uploads/atta1.jpg" },
+            { "_id": "img2", "url": "uploads/atta2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p1", "size": "1kg", "priceForWholesaler": 40, "priceForRetailer": 50 },
+            { "_id": "p2", "size": "5kg", "priceForWholesaler": 190, "priceForRetailer": 220 },
+            { "_id": "p3", "size": "10kg", "priceForWholesaler": 380, "priceForRetailer": 450 }
+        ],
+        "status": "active",
+        "slug": "whole-wheat-atta"
+    },
+    
+    
+    {
+        "_id": "2",
+        "productName": "Basmati Rice",
+        "productDescription": "Long grain, aromatic Basmati rice perfect for all types of meals. This premium-quality rice is aged for enhanced flavor, ensuring a fluffy texture when cooked, making it ideal for biryani and pilaf.",
+        "productMainImage": "uploads/rice.jpg",
+        "productOtherImages": [
+            { "_id": "img3", "url": "uploads/rice1.jpg" },
+            { "_id": "img4", "url": "uploads/rice2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p4", "size": "1kg", "priceForWholesaler": 100, "priceForRetailer": 120 },
+            { "_id": "p5", "size": "5kg", "priceForWholesaler": 480, "priceForRetailer": 550 },
+            { "_id": "p6", "size": "10kg", "priceForWholesaler": 950, "priceForRetailer": 1100 }
+        ],
+        "status": "active",
+        "slug": "basmati-rice"
+    },
+    {
+        "_id": "3",
+        "productName": "Toor Dal (Pigeon Pea)",
+        "productDescription": "High-quality Toor Dal, rich in protein and essential nutrients, ideal for making dal, sambhar, and other Indian dishes. Carefully processed to retain its natural flavor, color, and nutrition.",
+        "productMainImage": "uploads/toor_dal.jpg",
+        "productOtherImages": [
+            { "_id": "img5", "url": "uploads/dal1.jpg" },
+            { "_id": "img6", "url": "uploads/dal2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p7", "size": "500g", "priceForWholesaler": 80, "priceForRetailer": 95 },
+            { "_id": "p8", "size": "1kg", "priceForWholesaler": 150, "priceForRetailer": 180 },
+            { "_id": "p9", "size": "5kg", "priceForWholesaler": 700, "priceForRetailer": 850 }
+        ],
+        "status": "active",
+        "slug": "toor-dal"
+    },
+    {
+        "_id": "4",
+        "productName": "Moong Dal",
+        "productDescription": "Premium unpolished Moong Dal packed with essential nutrients. A great source of protein and fiber, it is easy to digest and perfect for soups, curries, and a variety of healthy vegetarian dishes.",
+        "productMainImage": "uploads/moong_dal.jpg",
+        "productOtherImages": [
+            { "_id": "img7", "url": "uploads/moong1.jpg" },
+            { "_id": "img8", "url": "uploads/moong2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p10", "size": "500g", "priceForWholesaler": 75, "priceForRetailer": 90 },
+            { "_id": "p11", "size": "1kg", "priceForWholesaler": 140, "priceForRetailer": 170 }
+        ],
+        "status": "active",
+        "slug": "moong-dal"
+    },
+    {
+        "_id": "5",
+        "productName": "Red Chilli Powder",
+        "productDescription": "Authentic Indian red chilli powder with a vibrant red color and strong, spicy flavor. Sourced from the finest chillies, it adds heat and depth to curries, gravies, and a variety of savory dishes.",
+        "productMainImage": "uploads/red_chilli.jpg",
+        "productOtherImages": [
+            { "_id": "img9", "url": "uploads/chilli1.jpg" },
+            { "_id": "img10", "url": "uploads/chilli2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p12", "size": "100g", "priceForWholesaler": 30, "priceForRetailer": 40 },
+            { "_id": "p13", "size": "250g", "priceForWholesaler": 70, "priceForRetailer": 90 },
+            { "_id": "p14", "size": "500g", "priceForWholesaler": 130, "priceForRetailer": 160 }
+        ],
+        "status": "active",
+        "slug": "red-chilli-powder"
+    },
+    {
+        "_id": "6",
+        "productName": "Turmeric Powder",
+        "productDescription": "Pure and natural turmeric powder with high curcumin content, known for its rich color, earthy aroma, and numerous health benefits. Ideal for curries, teas, and medicinal uses for overall wellness.",
+        "productMainImage": "uploads/turmeric.jpg",
+        "productOtherImages": [
+            { "_id": "img11", "url": "uploads/turmeric1.jpg" },
+            { "_id": "img12", "url": "uploads/turmeric2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p15", "size": "100g", "priceForWholesaler": 20, "priceForRetailer": 30 },
+            { "_id": "p16", "size": "250g", "priceForWholesaler": 50, "priceForRetailer": 65 },
+            { "_id": "p17", "size": "500g", "priceForWholesaler": 95, "priceForRetailer": 120 }
+        ],
+        "status": "active",
+        "slug": "turmeric-powder"
+    },
+    {
+        "_id": "7",
+        "productName": "Coriander Powder",
+        "productDescription": "Aromatic coriander powder made from fresh coriander seeds, adding a mild citrusy and earthy flavor to dishes. Perfect for curries, soups, chutneys, and various spice blends in Indian cuisine.",
+        "productMainImage": "uploads/coriander.jpg",
+        "productOtherImages": [
+            { "_id": "img13", "url": "uploads/coriander1.jpg" },
+            { "_id": "img14", "url": "uploads/coriander2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p18", "size": "100g", "priceForWholesaler": 25, "priceForRetailer": 35 },
+            { "_id": "p19", "size": "250g", "priceForWholesaler": 60, "priceForRetailer": 80 },
+            { "_id": "p20", "size": "500g", "priceForWholesaler": 110, "priceForRetailer": 140 }
+        ],
+        "status": "active",
+        "slug": "coriander-powder"
+    },
+    {
+        "_id": "8",
+        "productName": "Garam Masala",
+        "productDescription": "Traditional Indian spice blend made with carefully selected and roasted spices. Enhances the flavor of curries, stews, and gravies, adding a rich and aromatic touch to your favorite dishes.",
+        "productMainImage": "uploads/garam_masala.jpg",
+        "productOtherImages": [
+            { "_id": "img15", "url": "uploads/masala1.jpg" },
+            { "_id": "img16", "url": "uploads/masala2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p21", "size": "100g", "priceForWholesaler": 50, "priceForRetailer": 65 },
+            { "_id": "p22", "size": "250g", "priceForWholesaler": 120, "priceForRetailer": 150 }
+        ],
+        "status": "active",
+        "slug": "garam-masala"
+    },
+    
+    {
+        "_id": "9",
+        "productName": "Black Pepper",
+        "productDescription": "High-quality whole black pepper with a bold, pungent flavor. Sourced from premium farms, perfect for seasoning, spice blends, and enhancing the taste of various dishes.",
+        "productMainImage": "uploads/black_pepper.jpg",
+        "productOtherImages": [
+            { "_id": "img17", "url": "uploads/pepper1.jpg" },
+            { "_id": "img18", "url": "uploads/pepper2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p23", "size": "100g", "priceForWholesaler": 80, "priceForRetailer": 100 },
+            { "_id": "p24", "size": "250g", "priceForWholesaler": 190, "priceForRetailer": 230 }
+        ],
+        "status": "active",
+        "slug": "black-pepper"
+    },
+    {
+        "_id": "10",
+        "productName": "Cumin Seeds",
+        "productDescription": "Aromatic cumin seeds with a warm and earthy flavor, widely used in Indian and international cuisines. Ideal for seasoning curries, soups, and spice blends.",
+        "productMainImage": "uploads/jeera.jpg",
+        "productOtherImages": [
+            { "_id": "img19", "url": "uploads/jeera1.jpg" },
+            { "_id": "img20", "url": "uploads/jeera2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p25", "size": "100g", "priceForWholesaler": 40, "priceForRetailer": 55 },
+            { "_id": "p26", "size": "250g", "priceForWholesaler": 95, "priceForRetailer": 120 }
+        ],
+        "status": "active",
+        "slug": "cumin-seeds"
+    },
+    {
+        "_id": "11",
+        "productName": "Fenugreek Seeds",
+        "productDescription": "Premium quality fenugreek seeds with a slightly bitter taste and a strong aroma. Commonly used in Indian cooking and home remedies for their numerous health benefits.",
+        "productMainImage": "uploads/fenugreek_seeds.jpg",
+        "productOtherImages": [
+            { "_id": "img21", "url": "uploads/fenugreek1.jpg" },
+            { "_id": "img22", "url": "uploads/fenugreek2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p27", "size": "100g", "priceForWholesaler": 25, "priceForRetailer": 35 },
+            { "_id": "p28", "size": "250g", "priceForWholesaler": 55, "priceForRetailer": 70 }
+        ],
+        "status": "active",
+        "slug": "fenugreek-seeds"
+    },
+    {
+        "_id": "12",
+        "productName": "Black Mustard Seeds",
+        "productDescription": "Premium quality black mustard seeds with a strong, pungent flavor, ideal for tempering, pickling, and spice blends. Enhances the taste of curries and regional dishes.",
+        "productMainImage": "uploads/black_mustard_seeds.jpg",
+        "productOtherImages": [
+            { "_id": "img23", "url": "uploads/black_mustard1.jpg" },
+            { "_id": "img24", "url": "uploads/black_mustard2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p29", "size": "100g", "priceForWholesaler": 25, "priceForRetailer": 35 },
+            { "_id": "p30", "size": "250g", "priceForWholesaler": 55, "priceForRetailer": 70 }
+        ],
+        "status": "active",
+        "slug": "black-mustard-seeds"
+    },
+
+    {
+        "_id": "13",
+        "productName": "Cardamom",
+        "productDescription": "Premium green cardamom pods with a rich aroma and distinct flavor, perfect for desserts, teas, and Indian cuisine. Sourced from the best farms for maximum freshness.",
+        "productMainImage": "uploads/cardamom.jpg",
+        "productOtherImages": [
+            { "_id": "img25", "url": "uploads/cardamom1.jpg" },
+            { "_id": "img26", "url": "uploads/cardamom2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p31", "size": "50g", "priceForWholesaler": 250, "priceForRetailer": 300 },
+            { "_id": "p32", "size": "100g", "priceForWholesaler": 480, "priceForRetailer": 550 }
+        ],
+        "status": "active",
+        "slug": "cardamom"
+    },
+    {
+        "_id": "14",
+        "productName": "Cloves",
+        "productDescription": "Strong and aromatic cloves with a deep, warm flavor, widely used in Indian and global cuisine. Ideal for spice blends, teas, and medicinal purposes.",
+        "productMainImage": "uploads/cloves.jpg",
+        "productOtherImages": [
+            { "_id": "img27", "url": "uploads/cloves1.jpg" },
+            { "_id": "img28", "url": "uploads/cloves2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p33", "size": "50g", "priceForWholesaler": 180, "priceForRetailer": 220 },
+            { "_id": "p34", "size": "100g", "priceForWholesaler": 350, "priceForRetailer": 400 }
+        ],
+        "status": "active",
+        "slug": "cloves"
+    },
+    {
+        "_id": "15",
+        "productName": "Cinnamon Sticks",
+        "productDescription": "High-quality cinnamon sticks with a sweet and spicy aroma, perfect for cooking, baking, and medicinal uses. Sourced from the best plantations for premium flavor.",
+        "productMainImage": "uploads/cinnamon.jpg",
+        "productOtherImages": [
+            { "_id": "img29", "url": "uploads/cinnamon1.jpg" },
+            { "_id": "img30", "url": "uploads/cinnamon2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p35", "size": "50g", "priceForWholesaler": 120, "priceForRetailer": 150 },
+            { "_id": "p36", "size": "100g", "priceForWholesaler": 220, "priceForRetailer": 270 }
+        ],
+        "status": "active",
+        "slug": "cinnamon-sticks"
+    },
+    {
+        "_id": "16",
+        "productName": "Bay Leaves",
+        "productDescription": "Dried aromatic bay leaves used for flavoring soups, stews, and Indian curries. Adds a distinct herbal fragrance to dishes for enhanced taste.",
+        "productMainImage": "uploads/bay_leaves.jpg",
+        "productOtherImages": [
+            { "_id": "img31", "url": "uploads/bay1.jpg" },
+            { "_id": "img32", "url": "uploads/bay2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p37", "size": "50g", "priceForWholesaler": 30, "priceForRetailer": 40 },
+            { "_id": "p38", "size": "100g", "priceForWholesaler": 55, "priceForRetailer": 70 }
+        ],
+        "status": "active",
+        "slug": "bay-leaves"
+    },
+    {
+        "_id": "17",
+        "productName": "Rock Salt",
+        "productDescription": "Natural and unrefined rock salt rich in minerals, perfect for cooking and health benefits. Ideal for seasoning, fasting recipes, and digestive remedies.",
+        "productMainImage": "uploads/rock_salt.jpg",
+        "productOtherImages": [
+            { "_id": "img33", "url": "uploads/salt1.jpg" },
+            { "_id": "img34", "url": "uploads/salt2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p39", "size": "500g", "priceForWholesaler": 50, "priceForRetailer": 65 },
+            { "_id": "p40", "size": "1kg", "priceForWholesaler": 90, "priceForRetailer": 110 }
+        ],
+        "status": "active",
+        "slug": "rock-salt"
+    },
+    {
+        "_id": "18",
+        "productName": "White Sugar",
+        "productDescription": "High-quality refined white sugar with fine crystals for everyday use in tea, coffee, desserts, and baking. Pure and free from additives.",
+        "productMainImage": "uploads/sugar.jpg",
+        "productOtherImages": [
+            { "_id": "img35", "url": "uploads/sugar1.jpg" },
+            { "_id": "img36", "url": "uploads/sugar2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p41", "size": "1kg", "priceForWholesaler": 40, "priceForRetailer": 50 },
+            { "_id": "p42", "size": "5kg", "priceForWholesaler": 190, "priceForRetailer": 220 }
+        ],
+        "status": "active",
+        "slug": "white-sugar"
+    },
+    {
+        "_id": "19",
+        "productName": "Jaggery Powder",
+        "productDescription": "Organic jaggery powder with a natural sweet taste, rich in minerals and nutrients. A healthy alternative to refined sugar for sweets, tea, and traditional recipes.",
+        "productMainImage": "uploads/jaggery.jpg",
+        "productOtherImages": [
+            { "_id": "img37", "url": "uploads/jaggery1.jpg" },
+            { "_id": "img38", "url": "uploads/jaggery2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p43", "size": "500g", "priceForWholesaler": 60, "priceForRetailer": 80 },
+            { "_id": "p44", "size": "1kg", "priceForWholesaler": 110, "priceForRetailer": 140 }
+        ],
+        "status": "active",
+        "slug": "jaggery-powder"
+    },
+    {
+        "_id": "20",
+        "productName": "Dry Ginger Powder",
+        "productDescription": "Finely ground dry ginger powder with a strong aroma and sharp taste. Ideal for cooking, herbal teas, and traditional Ayurvedic remedies.",
+        "productMainImage": "uploads/ginger_powder.jpg",
+        "productOtherImages": [
+            { "_id": "img39", "url": "uploads/ginger1.jpg" },
+            { "_id": "img40", "url": "uploads/ginger2.jpg" }
+        ],
+        "availablePackSizes": [
+            { "_id": "p45", "size": "100g", "priceForWholesaler": 70, "priceForRetailer": 90 },
+            { "_id": "p46", "size": "250g", "priceForWholesaler": 150, "priceForRetailer": 180 }
+        ],
+        "status": "active",
+        "slug": "dry-ginger-powder"
+    }    
+]
