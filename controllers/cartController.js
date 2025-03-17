@@ -134,16 +134,27 @@ exports.showMyCart = (req, res) => {
 
 
 // ✅ Update quantity of a product in the cart
+
+
+// ✅ Update quantity of a product in the cart
 exports.updateCartProduct = (req, res) => {
     try {
         const { productId, sizeId, qty } = req.body;
 
-        const errors = validateCartInput(req.body);
-        if (errors.length > 0) {
-            return res.status(400).json({ status: 400, message: "Validation Error", errors });
+        // ✅ Validation Check
+        if (!productId || !sizeId || qty === undefined || qty <= 0) {
+            return res.status(400).json({ 
+                status: 400, 
+                message: "Invalid input. Product ID, Size ID, and Quantity must be provided, and Quantity must be greater than 0."
+            });
         }
 
         let cartData = readFileSafely(cartFilePath);
+
+        if (!cartData || cartData.length === 0 || !cartData[0].productlist) {
+            return res.status(404).json({ status: 404, message: "Cart not found" });
+        }
+
         let cart = cartData[0].productlist;
         let productIndex = cart.findIndex(item => item.productId === productId && item.sizeId === sizeId);
 
@@ -151,19 +162,30 @@ exports.updateCartProduct = (req, res) => {
             return res.status(404).json({ status: 404, message: "Product not found in cart" });
         }
 
+        // ✅ Update quantity & subtotal
         cart[productIndex].qty = qty;
         cart[productIndex].subtotal = cart[productIndex].qty * cart[productIndex].price;
         cart[productIndex].updatedAt = new Date();
 
+        // ✅ Update total cart amount
         cartData[0].total = cart.reduce((sum, item) => sum + item.subtotal, 0);
         writeCartFile(cartData);
 
-        return res.status(200).json({ status: 200, message: "Cart updated successfully", data: cartData[0] });
+        return res.status(200).json({ 
+            status: 200, 
+            message: "Cart updated successfully", 
+            data: cartData[0] 
+        });
     } catch (error) {
         console.error("Error updating cart:", error);
-        return res.status(500).json({ status: 500, message: "Internal Server Error", error: error.message });
+        return res.status(500).json({ 
+            status: 500, 
+            message: "Internal Server Error", 
+            error: error.message 
+        });
     }
 };
+
 
 
 
